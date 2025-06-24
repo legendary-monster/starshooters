@@ -1,4 +1,3 @@
-import react from 'react';
 import { Container, Carousel, Row, Col, Card, Button } from 'react-bootstrap';
 
 const Content = () => {
