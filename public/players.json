@@ -3,14 +3,14 @@
         "idNumber":"S931",
         "name": "Bhaskar",
         "Position":"Goal Keeper",
-        "image":"/bhaskar.jpeg",
+        "image":"/images/bhaskar.jpeg",
         "Club":"Star Shooters"
     },
     {
        "idNumber":"S932",
         "name": "Manas",
         "Position":"Center",
-        "image":"/manas.jpeg",
+        "image":"/images/manas.jpeg",
         "Club":"Star Shooters" 
     },
     
@@ -26,14 +26,14 @@
         "name": "Venkat",
         "Position":"Left wing",
         "Club":"Star Shooters",
-        "image":"/venkat.jpeg"
+        "image":"/images/venkat.jpeg"
     },
 
      {
         "idNumber":"S935",
         "name": "Rahul",
         "Position":"Right Wing",
-        "image":"/rahul.jpeg",
+        "image":"/images/rahul.jpeg",
         "Club":"Star Shooters"
     },
 
@@ -41,7 +41,7 @@
         "idNumber":"S936",
         "name": "Sharath",
         "Position":"Right Back",
-        "image":"/sharath.jpeg",
+        "image":"/images/sharath.jpeg",
         "Club":"Star Shooters"
     },
 
@@ -49,7 +49,15 @@
         "idNumber":"S937",
         "name": "Girish",
         "Position":"Pivot",
-        "image":"/girish.jpeg",
+        "image":"/images/girish.jpeg",
+        "Club":"Star Shooters"
+    },
+
+      {
+        "idNumber":"S938",
+        "name": "Babu",
+        "Position":"Left wing",
+        "image":"/images/babu.jpeg",
         "Club":"Star Shooters"
     }
 
