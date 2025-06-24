@@ -22,7 +22,7 @@ const Gallery = () => {
                  <Col style={{marginTop:"2em"}}>
                 <Image src="images/hbg4.jpeg" rounded height={"500rem"}width={"600rem"} />
                 </Col>
-              <Col style={{marginTop:"2em"}}>
+              <Col style={{marginTop:"2em",marginBottom:"2rem"}}>
                 <Image src="images/hbg7.jpeg" rounded height={"500rem"}width={"600rem"} />
                 </Col>
              </Row>   
