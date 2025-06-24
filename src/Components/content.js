@@ -1,4 +1,4 @@
-import { Container, Carousel, Row, Col, Button } from 'react-bootstrap';
+import { Container, Carousel, Row, Col, Button,Image } from 'react-bootstrap';
 
 const Content = () => {
     return (
@@ -35,35 +35,35 @@ const Content = () => {
                 <Row>
                     <Col md={4}>
                        <div className='Selva'>
-                        <img src="/images/selva.jpeg" alt="Selva" className="img-fluid coach-img" />
+                        <Image src="/images/selva.jpeg" alt="Selva" className="img-fluid coach-img" />
                             <h3>Selva</h3>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua.
                             </p>
                             <Button variant="outline-dark">Learn More</Button>
-                       </div>
+                       </div><br/> 
                     </Col>
                      <Col md={4}>
                         <div className='Prashanth'>
-                            <img src="/images/prashanth.jpeg" alt="prashanth" className="img-fluid coach-img"/>
+                            <Image src="/images/prashanth.jpeg" alt="prashanth" className="img-fluid coach-img"/>
                             <h3>Prashanth</h3>
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua.
                             </p>
                             <Button variant="outline-dark">Learn More</Button>    
-                            </div>
+                            </div><br/> 
                     </Col>
                      <Col md={4}>
                         <div className="Tilak">
-                            <img src="/images/tilak.jpeg" alt="Tilak" className="img-fluid coach-img"/>
+                            <Image src="/images/tilak.jpeg" alt="Tilak" className="img-fluid coach-img"/>
                             <h3>TILAK</h3>      
                             <p>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua.
                             </p>
-                            <Button variant="outline-dark">Learn More</Button>    
+                            <Button variant="outline-dark">Learn More</Button> <br/>   
                             
                             </div>
                     </Col>

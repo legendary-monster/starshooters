@@ -12,18 +12,18 @@ const Gallery = () => {
             <p>This is the gallery page our teams.</p>
             <Row>
                 <Col style={{marginTop:"2em"}}>
-                <Image src="images/hbb1.jpeg" rounded height={"500rem"}width={"600rem"} />
+                <Image src="images/hbb1.jpeg" rounded height={"500rem"}width={"600rem"} xs={6} md={4}/>
                 </Col>
               <Col style={{marginTop:"2em"}}>
-                <Image src="images/hbb2.jpeg" rounded height={"500rem"}width={"600rem"} />
+                <Image src="images/hbb2.jpeg" rounded height={"500rem"}width={"600rem"} xs={6} md={4}/>
                 </Col>
             </Row>
             <Row >
                  <Col style={{marginTop:"2em"}}>
-                <Image src="images/hbg4.jpeg" rounded height={"500rem"}width={"600rem"} />
+                <Image src="images/hbg4.jpeg" rounded height={"500rem"}width={"600rem"} xs={6} md={4} />
                 </Col>
               <Col style={{marginTop:"2em",marginBottom:"2rem"}}>
-                <Image src="images/hbg7.jpeg" rounded height={"500rem"}width={"600rem"} />
+                <Image src="images/hbg7.jpeg" rounded height={"500rem"}width={"600rem"} xs={6} md={4} />
                 </Col>
              </Row>   
             </Container>
