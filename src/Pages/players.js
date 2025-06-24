@@ -13,7 +13,7 @@ const Players = () => {
     console.log('value:', id)
 
     useEffect(() => {
-            axios.get('http://localhost:3000/players.json')
+            axios.get('/players.json')
             .then((response) =>{
                 response.data.map((data) => {
                     if(data.idNumber === id){
@@ -38,6 +38,7 @@ const Players = () => {
     <p><b>Player Id: {playerDetails.idNumber}</b></p>
     <p><b>position: {playerDetails.Position}</b></p>
     <p><b>Club: Star Shooters</b></p>
+    <Button href={playerDetails.photo} download=''>Download</Button>
     </Col>
    </Row>
    <Footer/>

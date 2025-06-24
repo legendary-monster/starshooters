@@ -19,16 +19,16 @@ const Login = () => {
       const handleSubmit = (e) => {
         e.preventDefault();
         if (text === ""){
-            setError("id number cannot be blank");
+            setError("Id number cannot be blank");
         }else{
-            axios.get(`http://localhost:3000/Players.json`)
+            axios.get("/Players.json")
             .then((response) => {
                console.log('Data:', response)
                 response.data.map((data,index) => {
                     if (data.idNumber === text){
                         navigate(`/players1/${text  }`)
                     } else {
-                        setError("wrong id number")
+                        setError("Wrong Id number")
                     }
                 })
             })
