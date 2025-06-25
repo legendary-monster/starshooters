@@ -10,22 +10,27 @@ const Gallery = () => {
             <Container>
             <h1>Gallery Page</h1>
             <p>This is the gallery page our teams.</p>
-            <Row>
-                <Col style={{marginTop:"2em"}}>
-                <Image src="images/hbb1.jpeg" classname="img-fluid rounded shadow border" xs={6} md={4} style={{ maxWidth: '100%', height: 'auto' }}/>
-                </Col>
-              <Col style={{marginTop:"2em"}}>
-                <Image src="images/hbb2.jpeg" classname="img-fluid rounded shadow border" xs={6} md={4} style={{ maxWidth: '100%', height: 'auto' }}/>
-                </Col>
-            </Row>
-            <Row >
-                 <Col style={{marginTop:"2em"}}>
-                <Image src="images/hbg4.jpeg"  classname="img-fluid rounded shadow border" xs={6} md={4} style={{ maxWidth: '100%', height: 'auto' }}/>
-                </Col>
-              <Col style={{marginTop:"2em",marginBottom:"2rem"}}>
-                <Image src="images/hbg7.jpeg" classname="img-fluid rounded shadow border" xs={6} md={4} style={{ maxWidth: '100%', height: 'auto' }}/>
-                </Col>
-             </Row>   
+  <Row style={{marginBottom:"1rem"}}>
+  {[
+    "hbb1.jpeg", "hbb2.jpeg", "hbg4.jpeg", "hbg7.jpeg","hbg3.jpeg",
+    "hbb3.jpeg", "hbg1.jpeg", "hbb4.jpeg", "hbb5.jpeg","shankranthi2024.jpeg","dasarastateW.jpeg","hbg6.jpeg"
+  ].map((file, index) => (
+    <Col key={index} xs={12} sm={6} md={4} lg={3} style={{ marginTop: "2em" }}>
+      <img
+        src={`images/${file}`}
+        className="img-fluid rounded shadow border"
+        style={{
+          width: '100%',
+          height: '200px',
+          objectFit: 'cover',
+          display: 'block'
+        }}
+        alt={`Gallery ${index + 1}`}
+      />
+    </Col>
+  ))}
+</Row>
+   
             </Container>
             <Footer/>
         </div>
