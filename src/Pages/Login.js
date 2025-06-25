@@ -26,7 +26,7 @@ const Login = () => {
                console.log('Data:', response)
                 response.data.map((data,index) => {
                     if (data.idNumber === text){
-                        navigate(`/players1/${text  }`)
+                        navigate(`/players1/${text}`)
                     } else {
                         setError("Wrong Id number")
                     }

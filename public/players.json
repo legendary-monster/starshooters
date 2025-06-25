@@ -68,6 +68,15 @@
         "image":"/images/babu.jpeg",
         "Club":"Star Shooters",
         "photo":"/images/babu.jpeg"
+    },
+
+      {
+        "idNumber":"S939",
+        "name": "Bharath",
+        "Position":"Goal Keeper",
+        "image":"/images/bharath.jpeg",
+        "Club":"Star Shooters",
+        "photo":"/images/bharath.jpeg"
     }
 
 ]
