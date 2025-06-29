@@ -1,6 +1,7 @@
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
-import { Container,Row,Col,Image } from 'react-bootstrap';
+import { Container,Row,Col} from 'react-bootstrap';
+// import ReactPlayer from 'react-player';
 
 const Gallery = () => {
     return (
@@ -30,6 +31,26 @@ const Gallery = () => {
     </Col>
   ))}
 </Row>
+<Row>
+  {["video1.mp4", "video2.mp4"].map((file, index) => (
+    <Col key={index} xs={12} sm={6} md={4} lg={3} style={{ marginTop: "2em" }}>
+      <video
+        className="img-fluid rounded shadow border"
+        style={{
+          width: '100%',
+          height: '200px',
+          objectFit: 'cover',
+          display: 'block'
+        }}
+        controls
+      >
+        <source src={`images/${file}`} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </Col>
+      ))}
+</Row>
+
    
             </Container>
             <Footer/>

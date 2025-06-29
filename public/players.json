@@ -10,7 +10,7 @@
     {
        "idNumber":"S932",
         "name": "Manas",
-        "Position":"Center",
+        "Position":"Center back",
         "image":"/images/manas.jpeg",
         "Club":"Star Shooters",
         "photo":"/images/manas.jpeg"
@@ -55,7 +55,7 @@
      {
         "idNumber":"S937",
         "name": "Girish",
-        "Position":"Pivot",
+        "Position":"Center Back",
         "image":"/images/girish.jpeg",
         "Club":"Star Shooters",
         "photo":"/images/girish.jpeg"
