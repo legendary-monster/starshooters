@@ -1,4 +1,4 @@
-import {Row,Col} from 'react-bootstrap'
+import {Row,Col, Container} from 'react-bootstrap'
 import Header from '../Components/Header';
 import Footer from '../Components/Footer';
 
@@ -6,13 +6,16 @@ const AboutUs = () => {
     return(
         <>
         <Header/>
+        <Container>
         <div className="about-hero text-center bg-light py-5">
   <h1 className="display-4 fw-bold">About Star Shooters</h1>
   <p className="lead">Empowering athletes through passion, performance, and purpose.</p>
 </div>
 <Row className="align-items-center my-5">
   <Col md={4}>
-    <img src="/images/hbb2.jpeg" alt="Our Team" className="img-fluid rounded shadow" style={{marginLeft:"1rem",height:"300px"}} />
+    <img src="/images/hbb2.jpeg" alt="Our Team" className="img-fluid rounded shadow" style={{width: 'auto',
+          height: '400px',
+          margin:'auto'}} />
   </Col>
   <Col md={8}>
     <h2>Our Journey</h2>
@@ -22,6 +25,7 @@ const AboutUs = () => {
     </p>
   </Col>
 </Row>
+</Container>
 <div className="text-center my-5">
   <h2><u>Our Achievements</u></h2>
 </div>

@@ -8,7 +8,7 @@ const Gallery = () => {
         <>
         <div className="gallery-page" style={{height:"160vh"}}>
             <Header/>
-            <Container>
+            <Container style={{marginBottom:"1rem"}}>
             <h1>Gallery Page</h1>
             <p>This is the gallery page our teams.</p>
   <Row style={{marginBottom:"1rem"}}>
@@ -33,12 +33,12 @@ const Gallery = () => {
 </Row>
 <Row>
   {["video1.mp4", "video2.mp4"].map((file, index) => (
-    <Col key={index} xs={12} sm={6} md={4} lg={3} style={{ marginTop: "2em" }}>
+    <Col key={index} xs={12} sm={6} md={6} lg={6} style={{ marginTop: "2em" }}>
       <video
         className="img-fluid rounded shadow border"
         style={{
           width: '100%',
-          height: '200px',
+          height: '400px',
           objectFit: 'cover',
           display: 'block'
         }}
@@ -50,8 +50,6 @@ const Gallery = () => {
     </Col>
       ))}
 </Row>
-
-   
             </Container>
             <Footer/>
         </div>
