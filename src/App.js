@@ -7,6 +7,7 @@ import Login from './Pages/Login';
 import SignUp from './Pages/SignUp';
 import Home from './Pages/Home';
 import Players from './Pages/players';
+import AboutUs from './Pages/AboutUs';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/login" element={<Login/>} />
           <Route path="/register" element={<SignUp/>} />
           <Route path="/players1/:id" element={<Players/>}/>
+          <Route path="/AboutUs" element={<AboutUs/>}/>
         </Routes>
       </BrowserRouter>
 

@@ -1,4 +1,4 @@
-import { Container, Carousel, Row, Col,Image } from 'react-bootstrap';
+import { Container, Carousel, Row, Col,Image} from 'react-bootstrap';
 
 const Content = () => {
     return (
@@ -32,19 +32,19 @@ const Content = () => {
             </Container>
             <Container className="my-5">
                 <h1 className='Coaches'><u>Our Coaches</u></h1>
-                <Row >
-                    <Col>
+                <Row>
+                    <Col xs={12} sm={12} md={4}>
                        <div className='Selva'>
                         <Image src="/images/selva.jpeg" alt="Selva" className="img-fluid coach-img" />
                             <h3 style={{textAlign:"center"}}>Selva</h3>
                             {/* <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua.
                             </p>
                             <Button variant="outline-dark">Learn More</Button> */}
                        </div><br/> 
                     </Col>
-                     <Col>
+                     <Col xs={12} sm={12} md={4}>
                         <div className='Prashanth'>
                             <Image src="/images/prashanth.jpeg" alt="prashanth" className="img-fluid coach-img"/>
                             <h3 style={{textAlign:"center"}}>Prashanth</h3>
@@ -55,7 +55,7 @@ const Content = () => {
                             <Button variant="outline-dark">Learn More</Button>     */}
                             </div><br/> 
                     </Col>
-                     <Col>
+                     <Col xs={12} sm={12} md={4}>
                         <div className="Tilak">
                             <Image src="/images/tilak.jpeg" alt="Tilak" className="img-fluid coach-img"/>
                             <h3 style={{textAlign:"center"}}>TILAK</h3>      
@@ -71,7 +71,6 @@ const Content = () => {
             <hr/>
             
         </Container >
-        
     </div >
   );
 }
