@@ -1,15 +1,17 @@
 import React from 'react';
 import '../App.css';
 import {Container,Nav,Navbar,NavDropdown} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 
 
 const Header = () => {
   return (
     <header>
+      
       <Navbar expand="lg" className="bg-dark" variant="dark" style={{backgroundColor:"black"}}>
       <Container className='header-container' variant="dark">
-        <img src="/logo.jpeg" className='logo' alt='logo' height={"60px"} width={"60px"}/>
-        <Navbar.Brand href="#home">Star Shooters</Navbar.Brand>
+        <Link to="/"><img src="/logo.jpeg" className='logo' alt='logo' height={"60px"} width={"60px"}/></Link>
+        <Navbar.Brand href="/">Star Shooters</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">

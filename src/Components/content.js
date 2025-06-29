@@ -32,8 +32,8 @@ const Content = () => {
             </Container>
             <Container className="my-5">
                 <h1 className='Coaches'><u>Our Coaches</u></h1>
-                <Row xs={4}>
-                    <Col md={4} style={{border:"2rem solid grey"}}>
+                <Row >
+                    <Col>
                        <div className='Selva'>
                         <Image src="/images/selva.jpeg" alt="Selva" className="img-fluid coach-img" />
                             <h3 style={{textAlign:"center"}}>Selva</h3>
@@ -44,7 +44,7 @@ const Content = () => {
                             <Button variant="outline-dark">Learn More</Button> */}
                        </div><br/> 
                     </Col>
-                     <Col md={4}>
+                     <Col>
                         <div className='Prashanth'>
                             <Image src="/images/prashanth.jpeg" alt="prashanth" className="img-fluid coach-img"/>
                             <h3 style={{textAlign:"center"}}>Prashanth</h3>
@@ -55,7 +55,7 @@ const Content = () => {
                             <Button variant="outline-dark">Learn More</Button>     */}
                             </div><br/> 
                     </Col>
-                     <Col md={4}>
+                     <Col>
                         <div className="Tilak">
                             <Image src="/images/tilak.jpeg" alt="Tilak" className="img-fluid coach-img"/>
                             <h3 style={{textAlign:"center"}}>TILAK</h3>      
