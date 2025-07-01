@@ -25,6 +25,8 @@
 .dropdown-item:hover {
   background-color: #343a40 !important; /* Darker shade on hover */
   color: white !important;
+  transition: 100ms;
+  transform: scale(1.02);
 }
 
 .content{
@@ -37,14 +39,6 @@
   object-fit: cover;
   display: block;
 
-}
-.Coaches{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 3rem;
-  font-family:"Times New Roman", Times, serif;
-  font-weight: bold;
 }
 
 
@@ -104,3 +98,8 @@ body{
   transition: 300ms;
 }
 
+.Links:hover{
+  color: rgb(255, 255, 255);
+  transition: 300ms;
+  transform: scale(1.05);
+}

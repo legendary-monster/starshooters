@@ -32,7 +32,7 @@ const Gallery = () => {
   ))}
 </Row>
 <Row>
-  {["video1.mp4", "video2.mp4"].map((file, index) => (
+  {["video1.mp4", "video2.mp4","video3.mp4","video4.mp4"].map((file, index) => (
     <Col key={index} xs={12} sm={6} md={6} lg={6} style={{ marginTop: "2em" }}>
       <video
         className="img-fluid rounded shadow border"

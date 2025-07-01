@@ -4,6 +4,7 @@ const Content = () => {
     return (
         <div className="content">
             <Container>
+               <h1 className="display-4 fw-bold text-center">Welcome to Star Shooters</h1><hr/><br/>
                 <Carousel>
                     <Carousel.Item>
                         <img src="images\dasarastateW.jpeg" alt="practice" text="First slide" />
