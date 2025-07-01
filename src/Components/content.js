@@ -38,7 +38,7 @@ const Content = () => {
                     <h3 style={{color:'black'}}>Selva</h3>
                     <p style={{color:"grey"}}>Secretary</p>
                     <p style={{color:'black'}}>Star Shooters</p>
-                    <button className='btn1'>Read more</button>
+                    {/* <button className='btn1'>Read more</button> */}
                 </Col >
                 
                 <Col xs={12} md={6} lg={4} className="profileCard">
@@ -46,7 +46,7 @@ const Content = () => {
                     <h3>Prashanth</h3>
                     <p style={{color:"grey"}}>Assistant  Secretary</p>
                     <p style={{color:'black'}}>Star Shooters</p>
-                    <button className='btn1'>Read more</button>
+                    {/* <button className='btn1'>Read more</button> */}
                 </Col>
             </Row>
             <hr/>   
