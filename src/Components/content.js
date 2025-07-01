@@ -28,48 +28,28 @@ const Content = () => {
                             </h5>
                         </Carousel.Caption> */}
                     </Carousel.Item>
-                </Carousel>
+                </Carousel><br/><hr/>
             </Container>
-            <Container className="my-5">
-                <h1 className='Coaches'><u>Our Coaches</u></h1>
-                <Row>
-                    <Col xs={12} sm={12} md={4}>
-                       <div className='Selva'>
-                        <Image src="/images/selva.jpeg" alt="Selva" className="img-fluid coach-img" />
-                            <h3 style={{textAlign:"center"}}>Selva</h3>
-                            {/* <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                            <Button variant="outline-dark">Learn More</Button> */}
-                       </div><br/> 
-                    </Col>
-                     <Col xs={12} sm={12} md={4}>
-                        <div className='Prashanth'>
-                            <Image src="/images/prashanth.jpeg" alt="prashanth" className="img-fluid coach-img"/>
-                            <h3 style={{textAlign:"center"}}>Prashanth</h3>
-                            {/* <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                            <Button variant="outline-dark">Learn More</Button>     */}
-                            </div><br/> 
-                    </Col>
-                     <Col xs={12} sm={12} md={4}>
-                        <div className="Tilak">
-                            <Image src="/images/tilak.jpeg" alt="Tilak" className="img-fluid coach-img"/>
-                            <h3 style={{textAlign:"center"}}>TILAK</h3>      
-                            {/* <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua.
-                            </p>
-                            <Button variant="outline-dark">Learn More</Button> <br/>    */}
-                            <br/>
-                            </div>
-                    </Col>
+            <Container className="my-5" style={{textAlign:"center", alignItems:"center"}}>
+                {/* <h1 className='Coaches'><u>Our Coaches</u></h1> */}
+            <Row className="profileCard1" style={{marginTop:"2rem",marginBottom:"2rem"}}>
+                <Col xs={12} md={6} lg={4} className="profileCard">
+                    <Image src="/images/selva.jpeg" className="img-fluid rounded coach-img" alt="Coach 1" style={{maxWidth: "300px", height: "300px", display: "inline",  borderRadius: "50%"}} />
+                    <h3 style={{color:'black'}}>Selva</h3>
+                    <p style={{color:"grey"}}>Secretary</p>
+                    <p style={{color:'black'}}>Star Shooters</p>
+                    <button className='btn1'>Read more</button>
+                </Col >
+                
+                <Col xs={12} md={6} lg={4} className="profileCard">
+                    <Image src="/images/prashanth.jpeg" className="img-fluid rounded coach-img" alt="Coach 2" style={{maxWidth: "300px", height: "300px", display: "inline",  borderRadius: "50%",}}/>
+                    <h3>Prashanth</h3>
+                    <p style={{color:"grey"}}>Assistant  Secretary</p>
+                    <p style={{color:'black'}}>Star Shooters</p>
+                    <button className='btn1'>Read more</button>
+                </Col>
             </Row>
-            <hr/>
-            
+            <hr/>   
         </Container >
     </div >
   );

@@ -20,7 +20,7 @@ const AboutUs = () => {
   <Col md={8}>
     <h2>Our Journey</h2>
     <p>
-      Founded in 1993, Star Shooters has been a beacon of excellence in sports education and training.
+      Founded in 1991, Star Shooters has been a beacon of excellence in sports education and training.
       Our goal is to nurture talent, instill discipline, and push athletes to achieve their personal best.
     </p>
   </Col>
