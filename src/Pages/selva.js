@@ -8,12 +8,11 @@ const Selva = () => {
         <Header/>
         <Container className="selva-container">   
         <Row>
-            <Col md={4} className="text-center my-5">
+            <Col xs={12} sm={12} md={6} lg={6}>
             <img src="/images/selva.jpeg" alt="selva" className="coachesPhoto" />
             </Col>
-            <Col md={8} className="text-center my-3">
-            <br/><br/><br/>
-            <h1 className="display-4 fw-bold">Selva</h1>
+            <Col xs={12} sm={12} md={6} lg={6}>
+            <h1 className="display-4 fw-bold mt-5">Selva</h1>
             <h3 className="text-muted">Secretary, Star Shooters Handball Club</h3>
             <p className="pdata">As the Secretary of this dynamic and passionate club, it gives me immense pride to share our journey and invite you into the energetic world of handball. Our club is more than just a team-it's a vibrant community built on teamwork, resilience, and an unshakable love for the sport.<br/><br/>
 
