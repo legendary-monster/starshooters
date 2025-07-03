@@ -103,3 +103,31 @@ body{
   transition: 300ms;
   transform: scale(1.05);
 }
+
+.lead{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+
+.lead1,.pdata{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.coachesPhoto{ 
+  border-radius: 2px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border:#343a40 solid 1px;
+  width: 400px;
+  float: left;
+  height: 500px;
+}
+
+.prashanth-container,.prashanth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

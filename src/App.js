@@ -8,6 +8,8 @@ import SignUp from './Pages/SignUp';
 import Home from './Pages/Home';
 import Players from './Pages/players';
 import AboutUs from './Pages/AboutUs';
+import Selva from './Pages/selva';
+import Prashanth from './Pages/prashanth';
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
           <Route path="/register" element={<SignUp/>} />
           <Route path="/players1/:id" element={<Players/>}/>
           <Route path="/AboutUs" element={<AboutUs/>}/>
+          <Route path="/selva" element={<Selva/>}/>
+          <Route path="/prashanth" element={<Prashanth/>}/>
         </Routes>
       </BrowserRouter>
 
