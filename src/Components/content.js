@@ -33,8 +33,10 @@ const Content = () => {
                     <Link to="/prashanth"><button className='btn1'>Read more</button></Link>
                 </Col>
             </Row>
-            <hr/>   
+            <hr/>  
+            
         </Container >
+        {/* <Image src="/images/homeImage.jpeg" alt="Star Shooters Logo" className="img-fluid rounded logo" style={{maxWidth: "100%", height: "100%", display: "block", margin: "0 auto"}} /> */}
     </div >
   );
 }
