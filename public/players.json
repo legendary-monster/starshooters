@@ -5,7 +5,7 @@
         "Position":"Goal Keeper",
         "image":"/images/bhaskar.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/bhaskar.jpeg"
+        "photo":"/KHA/bhaskar.jpeg"
     },
     {
        "idNumber":"SS02",
@@ -13,7 +13,7 @@
         "Position":"Center back",
         "image":"/images/manas.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/manas.jpeg"
+        "photo":"/KHA/manas.jpeg"
     },
     
     {
@@ -22,16 +22,16 @@
         "Position":"Left Back",
         "image":"/images/vishwas1.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/vishwas.jpeg"
+        "photo":"/KHA/vishwas.jpeg"
     },
     
     {
         "idNumber":"SS04",
         "name": "Venkat",
         "Position":"Left wing",
-        "Club":"Star Shooters",
         "image":"/images/venkat.jpeg",
-        "photo":"/images/venkat.jpeg"
+        "Club":"Star Shooters",
+        "photo":"/KHA/venkat.jpeg"
     },
 
      {
@@ -40,7 +40,7 @@
         "Position":"Right Wing",
         "image":"/images/rahul.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/rahul.jpeg"
+        "photo":"/KHA/rahul.jpeg"
     },
 
      {
@@ -58,7 +58,7 @@
         "Position":"Center Back",
         "image":"/images/girish.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/girish.jpeg"
+        "photo":"/KHA/girish.jpeg"
     },
 
       {
@@ -67,7 +67,7 @@
         "Position":"Left wing",
         "image":"/images/babu.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/babu.jpeg"
+        "photo":"/KHA/babu.jpeg"
     },
 
       {
@@ -82,137 +82,137 @@
         "idNumber":"SS10",
         "name": "Akash M",
         "Position":"Player",
-        "image":"/images/akash.jpeg",
+        "image":"/images/Logo.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/akash.jpeg"
+        "photo":"/KHA/akash.jpeg"
     },
     {
         "idNumber":"SS11",
         "name": "Selva K",
         "Position":"Player",
-        "image":"/images/selvak.jpeg",
+        "image":"/images/logo.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/selvak.jpeg"
+        "photo":"/KHA/selvaK.jpeg"
     },
     {
         "idNumber":"SS12",
-        "name": "Shivakumar",
+        "name": "Shivaram",
         "Position":"Player",
-        "image":"/images/shivakumar.jpeg",
+        "image":"/images/Logo.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/shivakumar.jpeg"
+        "photo":"/KHA/shivaram.jpeg"
     },
     {
         "idNumber":"SS13",
         "name": "prashanth V",
         "Position":"Player",
-        "image":"/images/prashanthV.jpeg",
+        "image":"/images/Logo.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/prashanthV.jpeg"
+        "photo":"/KHA/prashanthV.jpeg"
     },
     {
         "idNumber":"SS14",
         "name": "Chethan Kumar K",
         "Position":"Player",
-        "image":"/images/chethankumar.jpeg",
+        "image":"/images/Logo.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/chethankumar.jpeg"
+        "photo":"/KHA/chethankumar.jpeg"
     },
     {
         "idNumber":"SS15",
         "name": "Sampath K",
         "Position":"Player",
-        "image":"/images/sampathK.jpeg",
+        "image":"/images/Logo.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/sampathK.jpeg"
+        "photo":"/KHA/sampathK.jpeg"
     },
     {
         "idNumber":"SS16",
         "name": "K Kiran Kumar",
         "Position":"Player",
-        "image":"/images/kirankumar.jpeg",
+        "image":"/images/Logo.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/kirankumar.jpeg"
+        "photo":"/KHA/kirankumar.jpeg"
     },
     {
-        "idNumber":"SS16",
+        "idNumber":"SS26",
         "name": "Vinod Raj A",
         "Position":"Player",
-        "image":"/images/vinodRaj.jpeg",
+        "image":"/images/Logo.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/vinodRaj.jpeg"
+        "photo":"/KHA/vinodRaj.jpeg"
     },
     {
         "idNumber":"SS17",
         "name": "Hema Joshi",
         "Position":"player",
-        "image":"/images/hema.jpeg",
+        "image":"/images/Logo.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/hema.jpeg"
+        "photo":"/KHA/hema.jpeg"
     },
     {
         "idNumber":"SS18",
         "name": "Swathi N",
         "Position":"Player",
-        "image":"/images/swathi.jpeg",
+        "image":"/images/Logo.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/swathi.jpeg"
+        "photo":"/KHA/swathi.jpeg"
     },
     {
         "idNumber":"SS19",
-        "name": "Nivedita sahu",
+        "name": "Nivedita Sahu",
         "Position":"Player",
-        "image":"/images/nivedita.jpeg",
+        "image":"/images/Logo.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/nivedita.jpeg"
+        "photo":"/KHA/nivedita.jpeg"
     },
     {
         "idNumber":"SS20",
         "name": "Panchami Gowda",
         "Position":"Player",
-        "image":"/images/panchami.jpeg",
+        "image":"/images/Logo.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/pamchami.jpeg"
+        "photo":"/KHA/pamchami.jpeg"
     },
     {
         "idNumber":"SS21",
         "name": "Drishti Dechamma",
         "Position":"Player",
-        "image":"/images/drishti.jpeg",
+        "image":"/images/Logo.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/drishti.jpeg"
+        "photo":"/KHA/drishti.jpeg"
     },
     {
         "idNumber":"SS22",
         "name": "Chandana R",
         "Position":"Player",
-        "image":"/images/chandana.jpeg",
+        "image":"/images/Logo.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/chandana.jpeg"
+        "photo":"/KHA/chandana.jpeg"
     },
     {
         "idNumber":"SS23",
         "name": "Krithika C B",
         "Position":"Player",
-        "image":"/images/krithika.jpeg",
+        "image":"/images/Logo.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/krithika.jpeg"
+        "photo":"/KHA/krithika.jpeg"
     },
     {
         "idNumber":"SS24",
         "name": "Arfa",
         "Position":"Player",
-        "image":"/images/arfa.jpeg",
+        "image":"/images/Logo.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/arfa.jpeg"
+        "photo":"/KHA/arfa.jpeg"
     },
     {
         "idNumber":"SS25",
         "name": "Sanjana Gowda",
         "Position":"Player",
-        "image":"/images/sanjana.jpeg",
+        "image":"/images/Logo.jpeg",
         "Club":"Star Shooters",
-        "photo":"/images/sanjana.jpeg"
+        "photo":"/KHA/sanjana.jpeg"
     }
 
 ]
