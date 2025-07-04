@@ -46,7 +46,7 @@ const Content = () => {
                 <Col xs={12} md={6} lg={4} className="profileCard">
                     <Image src="/images/prashanth.jpeg" className="img-fluid rounded coach-img" alt="Coach 2" style={{maxWidth: "300px", height: "300px", display: "inline",  borderRadius: "50%",}}/>
                     <h3>Prashanth</h3>
-                    <p style={{color:"grey"}}>Assistant  Secretary</p>
+                    <p style={{color:"grey"}}>Joint Secretary</p>
                     <p style={{color:'black'}}>Star Shooters</p>
                     <Link to="/prashanth"><button className='btn1'>Read more</button></Link>
                 </Col>
