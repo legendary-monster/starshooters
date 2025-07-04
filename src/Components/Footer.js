@@ -3,6 +3,14 @@ import React from 'react';
 const Footer = () => {
   return (
     <footer className="bg-dark text-white text-center py-3">
+      {/* <div>
+      <h5>Quick Link</h5><br/>
+      <a href="/" className="text-white me-3">Home</a><br/>
+      <a href="/about" className="text-white me-3">About Us</a><br/>
+      <a href="/gallery" className="text-white me-3">Gallery</a><br/>
+      <a href="/contact" className="text-white me-3">Contact Us</a><br/>
+      </div> */}
+      <hr/>
       <div className="container">
         <p className="mb-0">© {new Date().getFullYear()} Star Shooters. All rights reserved.</p>
         <p className="mb-0">Follow us on social media: 

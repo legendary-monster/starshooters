@@ -17,12 +17,13 @@ We’ve also nurtured and produced a new generation of sports leaders, including
 At Star Shooters, we’re not just building players—we’re building futures</p>
 </div>
 <Row>
-    <Col>
-       <img src='/images/1.jpeg' alt='Our Team' className='img-fluid rounded shadow' style={{width: 'auto'
-            , height: '400px',
-            margin:'auto'}} />
+    <Col xs={12} md={6}>
+       <img src='/images/1.jpeg' alt='Our Team' className='img-fluid rounded shadow' 
+          style={{width: '100%',
+                  height: '400px',
+                  margin:'auto'}} />
     </Col>
-    <Col>
+    <Col xs={12} md={6}>
        <img src='/images/2.jpeg' alt='Our Team' className='img-fluid rounded shadow' style={{width: 'auto'
             , height: '400px',
             margin:'auto'}} />

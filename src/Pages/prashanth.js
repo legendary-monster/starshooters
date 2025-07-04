@@ -9,7 +9,7 @@ const Prashanth = () => {
         <Container className="prashanth-container">   
         <Row>
             <Col xs={12} sm={12} md={6} lg={6}>
-            <Image src="/images/prashanth.jpeg" alt="Prashanth" className="coachesPhoto" />
+            <Image src="/images/prashanth2.jpeg" alt="Prashanth" className="coachesPhoto" />
             </Col>
             <Col xs={12} sm={12} md={6} lg={6}>
             <h1 className="display-4 fw-bold mt-5">Prashanth</h1>
